@@ -58,15 +58,15 @@ if __name__ == '__main__':
     # Parse the command-line arguments into a 'dict'-like container
     args = parser.parse_args()
 
-    #Output based on --quiet
+    # Output based on --quiet
     if args.quiet:
-     print("Shhh. Be vewy, vewy quiet, I'm hunting wabbits...")
+    print("Shhh. Be vewy, vewy quiet, I'm hunting wabbits...")
     else:
     # What does `args` object "look" like?
     print(
         "The args after being processed by the argparse parser object:\n",
-        args)
-
+        args
+    )
     # We access the arguments specified on the command line (or the default
     # values if they were not used) by using `args.` syntax.
     #
