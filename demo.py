@@ -58,6 +58,9 @@ if __name__ == '__main__':
     # Parse the command-line arguments into a 'dict'-like container
     args = parser.parse_args()
 
+    #Output based on --quiet
+     print("Shhh. Be vewy, vewy quiet, I'm hunting wabbits...")
+    else:
     # What does `args` object "look" like?
     print(
         "The args after being processed by the argparse parser object:\n",
